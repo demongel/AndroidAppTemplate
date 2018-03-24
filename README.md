@@ -9,8 +9,8 @@
 - 图标基本上从google官方提供的icon中选取
 - 目前基本效果如下
 
-![图片1](https://github.com/demongel/AndroidAppTemplate/blob/master/image/fragment.jpg){:height="50%" width="50%"}
+![图片1](https://github.com/demongel/AndroidAppTemplate/blob/master/image/fragment.jpg)
 
-![图片2](https://github.com/demongel/AndroidAppTemplate/blob/master/image/home.jpg){:height="50%" width="50%"}
+![图片2](https://github.com/demongel/AndroidAppTemplate/blob/master/image/home.jpg)
 
-![图片3](https://github.com/demongel/AndroidAppTemplate/blob/master/image/slidemenu.jpg){:height="50%" width="50%"}
+![图片3](https://github.com/demongel/AndroidAppTemplate/blob/master/image/slidemenu.jpg)
