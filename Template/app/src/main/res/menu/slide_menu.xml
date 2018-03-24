@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_turned_in_not_white_36dp"
+            android:title="ONE"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_white_36dp"
+            android:title="TWO"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_error_outline_white_36dp"
+            android:title="THREE"
+            app:showAsAction="ifRoom"/>
+    </group>
+
+
+</menu>

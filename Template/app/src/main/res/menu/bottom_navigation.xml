@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:enabled="true">
+
+        <item
+            android:id="@+id/nav_one"
+            android:icon="@drawable/ic_explore_white_36dp"
+            android:enabled="true"
+            android:title="ONE" />
+
+        <item
+            android:id="@+id/nav_two"
+            android:icon="@drawable/ic_favorite_border_white_36dp"
+            android:enabled="true"
+            android:title="TWO" />
+
+        <item
+            android:id="@+id/nav_three"
+            android:icon="@drawable/ic_chat_white_36dp"
+            android:enabled="true"
+            android:title="THREE" />
+
+        <item
+            android:id="@+id/nav_four"
+            android:icon="@drawable/ic_perm_identity_white_36dp"
+            android:enabled="true"
+            android:title="FOUR" />
+
+    </group>
+</menu>

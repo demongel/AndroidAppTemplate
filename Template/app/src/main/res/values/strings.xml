@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Template</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+
+
+
+    <string-array name="titles">
+        <item name="zhihu">知乎</item>
+        <item name="guokr">果壳</item>
+        <item name="douban">豆瓣</item>
+    </string-array>
+</resources>

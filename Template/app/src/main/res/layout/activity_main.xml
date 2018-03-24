@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <include layout="@layout/custom_toolbar"/>
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <!-- 给item添加background 设置选择器，不需要给nav设置底部选择器-->
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="bottom"
+            app:elevation="8dp"
+            app:itemBackground="@android:color/white"
+            app:itemIconTint="@drawable/nav_item_color_selector"
+            app:itemTextColor="@drawable/nav_item_color_selector"
+            app:menu="@menu/bottom_navigation"/>
+    </LinearLayout>
+
+    <!--通过设置layout_marginTop 可以调整侧滑时遮挡的高度
+        同样也可以调整layout_marginBottom 来展示底部按钮
+    -->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/slide_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginTop="?actionBarSize"
+        android:backgroundTint="@android:color/white"
+        app:headerLayout="@layout/head_layout_slide_menu"
+        app:itemBackground="@android:color/white"
+        app:menu="@menu/slide_menu">
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#5856f5</color>-->
+    <!--<color name="colorPrimaryDark">#0814fa</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">@android:color/white</color>
+    <color name="colorPrimaryDark">#b4b4b4</color>
+    <color name="colorAccent">@android:color/holo_blue_light</color>
+
+
+    <!--底部Tint 颜色-->
+    <color name="color_nav_Item_unselected">#4d4747</color>
+    <color name="color_nav_item_selected">@android:color/holo_blue_dark</color>
+</resources>
